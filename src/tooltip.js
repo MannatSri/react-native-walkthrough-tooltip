@@ -254,7 +254,7 @@ class Tooltip extends Component {
         height: Math.max(contentSize.height, newContentSize.height),
         }}), () => {
        this.computeGeometry();
-       });
+    });
   };
 
   onChildMeasurementComplete = rect => {
